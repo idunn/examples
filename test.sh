@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 set -x
-cd source-repo
+cd repo
 ls .git -1
 cat .git/short_ref
 set -x
