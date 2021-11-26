@@ -4,6 +4,7 @@ set -x
 cd repo
 ls .git -1
 cat .git/short_ref
+VERSION= cat .git/short_ref
 set -x
 echo "$VERSION"
 ls -ltr
